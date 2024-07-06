@@ -83,6 +83,16 @@ extension TodoListViewController: UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.todoList.remove(at: indexPath.row)
+        }
+    }
+    
     @objc func isCompleted(_ sender: UIButton) {
         self.todoList[sender.tag].isCompleted = !(self.todoList[sender.tag].isCompleted)
         if todoList[sender.tag].isCompleted {

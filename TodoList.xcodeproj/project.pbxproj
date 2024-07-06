@@ -103,7 +103,6 @@
 				33206A11B9C2BBCE8193ED33 /* Pods-TodoList.debug.xcconfig */,
 				92B2C710CCDCC91CC85FFC14 /* Pods-TodoList.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
