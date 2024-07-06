@@ -81,20 +81,52 @@
 		2024C8AC2C39191F005339A7 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				209F428B2C39AAE400025D41 /* ViewControllers */,
+				209F428A2C39AAE000025D41 /* Models */,
+				209F42892C39AAD700025D41 /* Extenstions */,
+				209F42882C39AAD200025D41 /* cells */,
 				2024C8AD2C39191F005339A7 /* AppDelegate.swift */,
 				2024C8AF2C39191F005339A7 /* SceneDelegate.swift */,
-				2024C8B12C39191F005339A7 /* TodoListViewController.swift */,
-				2024C8C82C3922CA005339A7 /* ListModel.swift */,
-				20C3AEFC2C3983CC003385D5 /* StringExtension.swift */,
-				2024C8B32C39191F005339A7 /* Main.storyboard */,
 				2024C8B92C391921005339A7 /* Assets.xcassets */,
 				2024C8BB2C391921005339A7 /* LaunchScreen.storyboard */,
 				2024C8BE2C391921005339A7 /* Info.plist */,
 				2024C8B62C39191F005339A7 /* TodoList.xcdatamodeld */,
-				2024C8C42C391FC5005339A7 /* TodoListTableViewCell.swift */,
-				2024C8C52C391FC5005339A7 /* TodoListTableViewCell.xib */,
 			);
 			path = TodoList;
+			sourceTree = "<group>";
+		};
+		209F42882C39AAD200025D41 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				2024C8C52C391FC5005339A7 /* TodoListTableViewCell.xib */,
+				2024C8C42C391FC5005339A7 /* TodoListTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		209F42892C39AAD700025D41 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				20C3AEFC2C3983CC003385D5 /* StringExtension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		209F428A2C39AAE000025D41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2024C8C82C3922CA005339A7 /* ListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		209F428B2C39AAE400025D41 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2024C8B12C39191F005339A7 /* TodoListViewController.swift */,
+				2024C8B32C39191F005339A7 /* Main.storyboard */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		D63FE7359D5E580BAC6074C7 /* Pods */ = {
